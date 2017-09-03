@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>Tramite</title>
+	<link rel="stylesheet" type="text/css" href="css/miscss.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body class="container">
+	<div class="container">
+		<h1>Registro tramite</h1>
+	</div><br><br>
+	<div class="col-xs-12 col-md-12 col-lg-6">
+	<form class="form-group ">
+		<div class="from-group col-lg-12">
+		<label>Numero de radicado:</label>
+		<input type="text" name="radicado" placeholder="Numero de radicación del tramite" class="form-control">	
+		</div>
+		<div class="form-group col-lg-12 col-xs-12 col-md-12">
+			<label>Fecha:</label><br>
+			<label>Año:</label><br>
+			<select class="form-control " name="ano">
+				<option>2007</option>
+				<option>2013</option>
+			</select>
+			<label>Mes:</label>
+			<input type="text" name="mes" value="09" class="form-control" readonly="readonly">
+			<label>Dia:</label>
+			<input type="text" name="dia" value="01" class="form-control" readonly="readonly">
+			<label>Hora:</label>
+			<input type="text" name="dia" value="01" class="form-control" readonly="readonly">
+		</div>
+		<div class="form-group col-lg-12">
+			<label>Tema:</label>
+			<select class="form-control col-lg-3" name="ano">
+				<option>Tema1</option>
+				<option>Tema2</option>
+			</select>
+		</div>
+		<div class="col-lg-7">
+			<button class="btn btn-success">Registrar tramite</button>
+			<input type="reset" class="btn btn-danger" name="" value="Limpiar formulario">
+		</div>
+		
+	</form>
+	</div>
+	<div class="container col-xs-12 col-md-12 col-lg-6" id="centrar">
+			<button class="btn btn-warning" ><span class="glyphicon glyphicon-search" id="botongrande"></span><br>Consulta tramites</button>
+	</div>
+	<div class="container col-xs-12 col-md-12 col-lg-6" id="centrar" style="margin:30px 0px;">	
+			<button class="btn btn-warning" ><span class="glyphicon glyphicon-search" id="botongrande"></span><br>Consulta tramites</button>
+	</div>
+</body>
+</html>
